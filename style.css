@@ -1,0 +1,74 @@
+body {
+    background-color: white;
+}
+
+main {
+ display: flex;
+ justify-content: center;
+ margin-top: 30vh;
+}
+
+.resultContainer {
+    background-image: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.myResult {
+    border-radius: 50%;
+    background-image: linear-gradient(180deg, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 60%;
+    text-align: center;
+}
+
+.summaryContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-shadow: 10px 10px 5px rgb(133, 134, 134);
+
+}
+
+.summaryContainer ul {
+    list-style: none;
+    line-height: 2.5;
+    margin-bottom: 15%;
+    margin-top: 5%;
+    
+}
+
+.reactionListItem{
+    border: solid 1px white;
+    background-color: hsl(0, 100%, 67%);
+    border-radius: 10%;
+}
+
+.memoryListItem{
+    border: solid 1px white;
+    background-color: hsl(39, 100%, 56%);
+}
+
+.verbalListItem{
+    border: solid 1px white;
+    background-color: hsl(166, 100%, 37%);
+}
+
+.visualListItem{
+    border: solid 1px white;
+    background-color: hsl(234, 85%, 45%);
+}
+
+button {
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+}
